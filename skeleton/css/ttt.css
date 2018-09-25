@@ -1,0 +1,37 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 198px;
+  border: 3px solid black;
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+  border: 3px solid black;
+  font-size: 40px;
+  font-family: sans-serif;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+li:hover{
+  background-color: yellow;
+}
+
+.selected {
+  background-color: white;
+}
+
+.x {
+  color: blue;
+}
+
+.o {
+  color: red;
+}
+
